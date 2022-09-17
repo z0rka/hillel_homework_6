@@ -9,7 +9,7 @@ public class Main {
 
   public static void main(String[] args) {
     String[][] str = {
-        {"1", "1", "1", "null"},
+        {"1", "1", "1", "1"},
         {"1", "1", "1", "1"},
         {"1", "1", "1", "1"},
         {"1", "1", "1", "1"}

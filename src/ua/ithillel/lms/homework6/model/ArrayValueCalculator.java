@@ -27,9 +27,17 @@ public class ArrayValueCalculator {
   }
 
   private static void checkIfStrFits(String[][] matrixStr) throws ArraySizeException {
+    if (matrixStr == null) {
+      throw new ArraySizeException("String is null");
+    }
+
     int checkIfFits = 0;
 
     for (String[] str : matrixStr) {
+      if (str == null) {
+        throw new ArraySizeException("Not appropriate size of the String");
+      }
+
       checkIfFits += str.length;
     }
 
